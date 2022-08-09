@@ -1,0 +1,747 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: ; */
+    background-color: rgb(234, 229, 217);
+}
+
+header{
+    margin: 10px auto;
+    padding: 4px 8px;
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img1 {
+    width: 100px;
+}
+
+ul{
+    width: 600px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(20, 14, 47);
+}
+
+li a:hover {
+    border-bottom: 3px solid rgb(247, 190, 84);
+}
+
+
+input[type="search"] {
+    padding: 4px;
+    color: rgb(14, 13, 13);
+    border: 2px solid rgb(143, 143, 143);
+}
+
+.gallery {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+#img2 {
+    width: 100%;
+    height: 600px;
+}
+
+.first-text{
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    text-align: center;
+    color: #ffffff;
+}
+
+.second-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 5vw;
+    text-align: center;
+    color: #ffffff;
+}
+
+#img3, #img4, #img5, #img6{
+    width: 230px;
+}
+
+#img7{
+    width: 100%;
+    height: 600px;
+}
+
+.main-first{
+    margin: 60px;
+}
+
+#bestsellers {
+    margin-bottom: 30px;
+}
+
+.maintx{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-second {
+    margin-top: 95px;
+    margin-bottom: 200px;
+}
+
+.main-first, .main-fifth h1{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.button, .shop{
+    display: inline-block;
+    overflow: hidden;
+    align-items: center;
+    margin: 20px 700px;
+}
+
+button{
+    border: 2px solid rgb(56, 11, 56);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(56, 11, 56);
+}
+
+button:hover{
+    background-color: rgb(29, 29, 64);
+    color: white;
+}
+
+.pic1, .pic2, .pic3, .pic4{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(56, 11, 56);
+}
+
+.main-third{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.maintx p {
+    font-weight: bold;
+}
+
+#st1, #st2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-third p{
+    margin-bottom: 15px;
+}
+
+.main-forth{
+    margin: 30px 0;
+}
+
+.newsletter{
+    text-align: center;
+}
+
+#img10{
+    width: 100%;
+}
+
+#img11, #img12, #img13{
+    width: 400px;
+}
+
+.main-fifth{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.instagram{
+    margin: 80px 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ig{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#ig{
+    text-decoration: underline;
+    font-size: 30px;
+    width: 100%;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: #ffffff;
+    background: none;
+}
+
+.middle {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #ffffff;
+    background: none;
+}
+
+#shop {
+    position: absolute;
+    top: 60%;
+    margin-top: 80px;
+    border: none;
+    font-size: 15px;
+    color: rgb(59, 31, 59);
+    width: 120px; 
+    height: 50px;
+}
+
+#shop:hover {
+    background-color: #ffffff;
+}
+
+.homedecor {
+    position: absolute;
+    top: 222%;
+    left: 30%;
+    font-size: 80px;
+    color: #ffffff;
+    background: none;
+}
+
+.newpiece {
+    position: absolute;
+    top: 236%;
+    left: 38%;
+    font-size: 25px;
+    color: #ffffff;
+    background: none;
+}
+
+#shop2 {
+    position: absolute;
+    top: 236%;
+    left: 43%;
+    margin-top: 80px;
+    border: none;
+    font-size: 15px;
+    color: rgb(59, 31, 59);
+    width: 120px; 
+    height: 50px;
+}
+
+#shop2:hover {
+    background-color: #ffffff;
+}
+
+.signup {
+    position: absolute;
+    top: 415%;
+    left: 25%;
+    font-size: 80px;
+    color: #ffffff;
+    background: none;
+}
+
+#email {
+    position: absolute;
+    top: 430%;
+    left: 35%;
+    background-color: rgb(231, 228, 228);
+    box-sizing: border-box;
+    width: 400px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+}
+
+#submit {
+    position: absolute;
+    top: 445%;
+    left: 44%;
+    border: none;
+    width: 120px;
+    height: 60px;
+    font-size: 15px;
+    color: rgb(59, 31, 59);
+}
+
+#submit:hover {
+    background-color: #ffffff;
+}
+
+footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(245, 242, 237);
+}
+
+#img14 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 60px;
+}
+
+#img15, #img16, #img17{
+    margin: 10px;
+    width: 30px;
+    background-color: rgb(245, 242, 237);
+    padding: 8px;
+}
+
+.social {
+    margin-left: 80px;
+    display: flex;
+    width: 70px;
+    background-color: rgb(245, 242, 237);
+}
+
+.footer, .insta, .fb, .tw {
+    background-color: rgb(245, 242, 237);
+}
+
+.tw a, .fb a, .insta a {
+    background-color: rgb(245, 242, 237);
+}
+
+.payment{
+    float: right;
+    display: inline;
+    display: flex;
+    background-color: rgb(245, 242, 237);
+    margin: 40px;
+}
+
+.payment p {
+    text-decoration: underline;
+    background-color: rgb(245, 242, 237);
+    text-align: right;
+    padding: 10px;
+}
+
+/* phone */
+
+@media (max-width: 600px) and (min-width: 400px) {
+* {
+    background-color: antiquewhite;
+    margin: 0;
+}
+    
+#img2 {
+    width: 100%;
+    height: 350px;
+}
+
+nav {
+    width: 350px;
+}
+
+ul {
+    width: 300px;
+}
+
+li {
+    font-size: 15px;
+}
+
+#img1 {
+    width: 70px;
+    margin-right: 8px;
+}
+
+#search {
+    width: 110px;
+}
+
+header {
+    width: 590px;
+}
+
+.center{
+    position: absolute;
+    font-size: 36px;
+}
+
+.middle {
+    position: absolute;
+    font-size: 18px;
+}
+
+#shop {
+    position: absolute;
+    top: 45%;
+    margin-top: 80px;
+    border: none;
+    font-size: 12px;
+    color: rgb(59, 31, 59);
+    width: 100px; 
+    height: 40px;
+}
+
+.button, .shop{
+    display: inline-block;
+    overflow: hidden;
+    align-items: center;
+    margin: 10px 260px;
+}
+
+#shop:hover {
+    background-color: #ffffff;
+}
+
+.maintx {
+    display: block;
+}
+
+#bestsellers {
+    font-size: 40px;
+}
+
+button{
+    border: 2px solid black;
+    padding: 7px;
+    font-size: 15px;
+}
+    
+button:hover{
+    background-color: rgb(29, 29, 64);
+    color: white;
+}
+
+#img7 {
+    width: 100%;
+    height: 350px;
+}
+
+.homedecor {
+    position: absolute;
+    top: 330%;
+    left: 30%;
+    font-size: 35px;
+    color: #ffffff;
+    background: none;
+}
+    
+.newpiece {
+    position: absolute;
+    top: 338%;
+    left: 33%;
+    font-size: 18px;
+    color: #ffffff;
+    background: none;
+}
+
+#shop2 {
+    position: absolute;
+    top: 330%;
+    left: 41%;
+    margin-top: 80px;
+    border: none;
+    font-size: 12px;
+    color: rgb(59, 31, 59);
+    width: 100px; 
+    height: 40px;
+}
+    
+#shop2:hover {
+    background-color: #ffffff;
+}
+
+#img8, #img9 {
+    width: 300px;
+}
+
+p{
+    font-size: 17px;
+    color: rgb(56, 11, 56);
+}
+
+#img10 {
+    width: 100%;
+    height: 330px;
+}
+
+.signup {
+    position: absolute;
+    top: 460%;
+    left: 18%;
+    font-size: 35px;
+    color: #ffffff;
+    background: none;
+}
+
+#email {
+    position: absolute;
+    top: 470%;
+    left: 25%;
+    background-color: rgb(231, 228, 228);
+    box-sizing: border-box;
+    width: 280px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+}
+
+#submit {
+    position: absolute;
+    top: 480%;
+    left: 40%;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    color: rgb(59, 31, 59);
+}
+
+#submit:hover {
+    background-color: #ffffff;
+}
+
+.main-third {
+    margin-top: 0;
+}
+
+.main-second {
+    margin-bottom: 80px;
+}
+
+#img11, #img12, #img13 {
+    width: 200px;
+}
+
+footer {
+    width: 100%;
+}
+
+.main-forth {
+    margin-bottom: 60px;
+}
+
+.main-fifth h1 {
+    font-size: 40px;
+}
+
+}
+
+/* tablet */
+
+@media (min-width: 601px) and (max-width: 800px) {
+
+* {
+    background-color: rgb(235, 205, 170);
+}
+
+header {
+    width: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+#img1 {
+    width: 80px;
+    margin-left: 40px;
+}
+
+#img2, #img7 {
+    width: 800px;
+    height: 400px;
+}
+
+ul {
+    width: 530px;
+}
+
+nav {
+    width: 530px;
+    margin: 0;
+}
+
+#search {
+    width: 80px;
+}
+
+.center{
+    position: absolute;
+    font-size: 45px;
+}
+
+.middle {
+    position: absolute;
+    font-size: 20px;
+}
+
+#shop {
+    position: absolute;
+    top: 45%;
+    margin-top: 80px;
+    border: none;
+    font-size: 12px;
+    color: rgb(59, 31, 59);
+    width: 100px; 
+    height: 40px;
+}
+
+.button, .shop{
+    display: inline-block;
+    overflow: hidden;
+    align-items: center;
+    margin: 10px 350px;
+}
+
+#shop:hover {
+    background-color: #ffffff;
+}
+
+#bestsellers {
+    font-size: 50px;
+}
+
+
+#img3, #img4, #img5, #img6 {
+    width: 200px;
+}
+
+button{
+    border: 2px solid black;
+    padding: 7px;
+    font-size: 18px;
+}
+    
+button:hover{
+    background-color: rgb(29, 29, 64);
+    color: white;
+}
+
+.homedecor {
+    position: absolute;
+    top: 200%;
+    left: 30%;
+    font-size: 45px;
+    color: #ffffff;
+    background: none;
+}
+    
+.newpiece {
+    position: absolute;
+    top: 210%;
+    left: 33%;
+    font-size: 20px;
+    color: #ffffff;
+    background: none;
+}
+
+#shop2 {
+    position: absolute;
+    top: 205%;
+    left: 41%;
+    margin-top: 80px;
+    border: none;
+    font-size: 12px;
+    color: rgb(59, 31, 59);
+    width: 100px; 
+    height: 40px;
+}
+    
+#shop2:hover {
+    background-color: #ffffff;
+}
+
+#img8, #img9 {
+    width: 350px;
+}
+
+.main-second {
+    border-bottom: 0;
+}
+
+.about-mina, .sus {
+    width: 400px;
+    border-top: 0;
+}
+
+#img10 {
+    width: 100%;
+    height: 380px;
+}
+
+.signup {
+    position: absolute;
+    top: 375%;
+    left: 22%;
+    font-size: 40px;
+    color: #ffffff;
+    background: none;
+}
+
+#email {
+    position: absolute;
+    top: 385%;
+    left: 30%;
+    background-color: rgb(231, 228, 228);
+    box-sizing: border-box;
+    width: 280px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+}
+
+#submit {
+    position: absolute;
+    top: 395%;
+    left: 40%;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    color: rgb(59, 31, 59);
+}
+
+#submit:hover {
+    background-color: #ffffff;
+}
+
+#img11, #img12, #img13 {
+    width: 265px;
+}
+
+}
